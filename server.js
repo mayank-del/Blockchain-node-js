@@ -5,7 +5,7 @@ const express =require("express")
 const {Web3}= require('web3')
  
 const app=express()
-const web3=new Web3('https://virulent-fabled-county.ethereum-goerli.quiknode.pro/68ed9f0ca4452fbddda0ead0c15796c24c5be12b');
+const web3=new Web3('');
 const contractAddress="";
 const contract=new web3.eth.Contract(ABI,contractAddress)
 //console.log(contract);
